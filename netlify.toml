@@ -11,7 +11,7 @@
     status = 200
 
 [[redirects]]
-    from = "api-workaround"
+    from = "/api-workaround"
     to = "/api-issue-2?param1=hello&param2=world"
     query = { param2 = ":param2" }
     status = 301
