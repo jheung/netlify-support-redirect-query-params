@@ -1,0 +1,17 @@
+{
+  "name": "netlify-support-redirect-query-params",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "netlify dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@netlify/functions": "^1.6.0",
+    "netlify-cli": "^15.1.0"
+  }
+}

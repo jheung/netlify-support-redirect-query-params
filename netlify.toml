@@ -1,0 +1,17 @@
+[[redirects]]
+    from = "/api-issue"
+    to = "/.netlify/functions/params?param1=hello&param2=:param2"
+    query = { param2 = ":param2" }
+    status = 200
+
+[[redirects]]
+    from = "/api-issue-2"
+    to = "/.netlify/functions/params?param1=hello&param2=:param2"
+    query = { param1 = ":param1", param2 = ":param2" }
+    status = 200
+
+[[redirects]]
+    from = "api-workaround"
+    to = "/api-issue-2?param1=hello&param2=world"
+    query = { param2 = ":param2" }
+    status = 301
