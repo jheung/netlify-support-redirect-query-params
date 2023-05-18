@@ -15,3 +15,8 @@
     to = "/api-issue-2?param1=hello&param2=world"
     query = { param2 = ":param2" }
     status = 301
+
+[[redirects]]
+    from = "/api-no-query"
+    to = "/.netlify/functions/params?param1=hello&param2=world"
+    status = 200
