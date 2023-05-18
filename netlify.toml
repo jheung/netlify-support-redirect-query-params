@@ -20,3 +20,8 @@
     from = "/api-no-query"
     to = "/.netlify/functions/params?param1=hello&param2=world"
     status = 200
+
+[[redirects]]
+    from = "/api-no-query-301"
+    to = "/.netlify/functions/params?param1=hello&param2=world"
+    status = 301
